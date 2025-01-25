@@ -22,14 +22,14 @@ const HomeViews = () => {
     }, []);
 
     return (
-        <a className={styles.page} href="#">
-            <div className={styles.container}>
+        <div className={styles.container}>
+            <a className={styles.page} href="#">
                 <div className={styles.textContainer}>
                     <span className={`${styles.text} ${styles.firstText}`}>Hi, I&apos;m A </span>
                     <span className={`${styles.text} ${styles.secondText}`}></span>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
     );
 };
 

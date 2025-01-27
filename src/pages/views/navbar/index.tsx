@@ -20,7 +20,7 @@ const Header = () => {
     })
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>Ry</h1>
+            <h1 className={styles.title}>RyHar</h1>
             <div className={styles.spacer}>
                 <button className={styles.toggleNavbar}>☰</button>
             </div>

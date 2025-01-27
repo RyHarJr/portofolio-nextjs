@@ -1,11 +1,9 @@
-import HomeViews from "./views/home";
+import Header from "./views/header";
 
-const Home = () => {
-  return (
-    <>
-      <HomeViews />
-    </>
-  );
-};
-
-export default Home;
+export default function Home() {
+    return (
+        <>
+        <Header />
+        </>
+    );
+}

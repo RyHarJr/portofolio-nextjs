@@ -64,6 +64,14 @@
         justify-content: center;
     }
     
+    .toggleNavbar:hover {
+        color: #DD88CF;
+    }
+
+    .toggleNavbar.active {
+        color: #DD88CF;
+    }
+
     .container ul {
         right: 5px;
         position: absolute;

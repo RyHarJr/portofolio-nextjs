@@ -12,6 +12,9 @@ const Header = () => {
             toggle?.addEventListener('click', () => {
                 container?.classList.toggle(styles.active);
             })
+            toggle?.addEventListener('click', () => {
+                toggle?.classList.toggle(styles.active);
+            })
         }
         toggleNavbar();
     })
@@ -40,4 +43,4 @@ const navItems = [
     { name: 'Contact', path: '/contact' },
     { name: 'Portofolio', path: '/portofolio' },
     { name: 'Login', path: '/login' },
-  ];
+];

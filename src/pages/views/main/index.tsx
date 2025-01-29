@@ -25,7 +25,7 @@ const MainView = () => {
                 </div>
                 
                 <div className={styles.image}>
-                    <Image src="/images/profile.jpg" alt="profile" width={300} height={300} />
+                    <Image src="/images/profile.jpg" alt="profile" width={300} height={300} priority={true} />
                 </div>
             </div>
         </div>

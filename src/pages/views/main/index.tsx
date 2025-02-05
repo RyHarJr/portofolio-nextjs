@@ -37,17 +37,17 @@ export default MainView
 const SocialMedia = [
     {
         name: "Github",
-        path: "",
+        path: "https://github.com/RyHarJr",
         icon: faGithub
     },
     {
         name: "Instagram",
-        path: "",
+        path: "https://www.instagram.com/rizki_hr4",
         icon: faInstagram
     },
     {
         name: "Tiktok",
-        path: "",
+        path: "https://www.tiktok.com/@ryhar_123",
         icon: faTiktok
     }
 ]
